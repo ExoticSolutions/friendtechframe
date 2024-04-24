@@ -205,7 +205,7 @@ app.transaction("/sell", (c) => {
 
 // })
 
-const port = 3000;
+const port = 10000 || 4000;
 console.log(`Server is running on port ${port}`);
 
 devtools(app, { serveStatic });
