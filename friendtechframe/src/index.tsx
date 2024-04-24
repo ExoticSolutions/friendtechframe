@@ -323,11 +323,4 @@ async function calculateFinalValue(userAddress, tokenBuyAmount) {
 const port = process.env.PORT || 4000;
 console.log(`Server is running on port ${port}`);
 
-devtools(app, { serveStatic });
-
-serve({
-  fetch: app.fetch,
-  port,
-});
-
 //button.transaction in root / should send to c.transaction where we get calculate the cost for the transaction
