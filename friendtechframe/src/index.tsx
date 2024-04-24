@@ -320,7 +320,7 @@ async function calculateFinalValue(userAddress, tokenBuyAmount) {
 
 // })
 
-const port = process.env.PORT;
+const port = process.env.PORT || 4000;
 console.log(`Server is running on port ${port}`);
 
 devtools(app, { serveStatic });
